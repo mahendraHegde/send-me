@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="mahe.sendme.Home"
+    android:id="@+id/relative_home"
+    android:background="@drawable/back1">
+
+<Button
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:text="Send"
+    android:id="@+id/btnCLient"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="160dp"
+    android:background="@drawable/btnback"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnCLient"
+        android:text="Receive"
+        android:id="@+id/btnserver"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btnback"/>
+
+</RelativeLayout>
